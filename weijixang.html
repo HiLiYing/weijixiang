@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>微吉祥</title>
+    <link rel="stylesheet" href="framework/bootstrap-3.3.0-dist/css/bootstrap.min.css">
+    <script src="framework/jquery-2.1.4/jquery.min.js"></script>
+    <script src="framework/bootstrap-3.3.0-dist/js/bootstrap.min.js"></script>
+    <style>
+        .header{
+            background: white;
+        }
+        .header .logo{
+
+        }
+        .header .logo img{
+            margin-left: 150px;
+            margin-top: 30px;
+        }
+        .header .right{
+            margin-top: 85px;
+            padding-left: 100px;
+        }
+        .header .tabs-header> .row > div{
+            margin: 5px 0;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .header .tabs-header> .row a{
+            cursor: pointer;
+        }
+        .header .tabs-header> .row > div.active{
+            background: #F2003A;
+            color: #ffffff;
+            border-radius: 5px;
+        }
+        /*第二行*/
+        .header .row-two{
+            background: #dbdbdb;
+        }
+        .header .tabs-line> .row > div {
+            height: 2px;
+        }
+        .header .tabs-line> .row > div.active{
+            background: #F2003A;
+        }
+
+        .carousels{
+            padding: 14px 0 10px;
+            border: 1px solid #c5c5c5;
+        }
+        .carousels .item > img{
+            width: 100%;
+        }
+        /*第一 二部分样式结束*/
+        .center{
+            width: 80%;
+            margin: 0 auto;
+        }
+        .case p{
+            font-size: 18px;
+            font-weight: bolder;
+            padding: 10px 0;
+        }
+        .case span {
+            margin: 0 0 0 10px;
+        }
+        .case span i{
+            color: white;
+        }
+        .case .picture img{
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+        .case .words span{
+            font-size: 16px;
+            margin-left: 360px;
+        }
+        .case .words p{
+            color:#737373;
+            width: 490px;
+            margin: 0 auto;
+            font-size: 14px;
+        }
+        .case .thead{
+            height: 1px;
+            background: #5e5e5e;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo col-md-3">
+            <img src="images/logo.jpg" alt="">
+        </div>
+        <div class="right col-md-9 pull-right">
+            <div class="row-one row tabs-header">
+                <!--极小屏下隐藏-->
+                    <div class="row">
+                        <div class="col-md-1">首页</div>
+                        <div class="col-md-1 active">案例</div>
+                        <div class="col-md-1">关于</div>
+                        <div class="col-md-1">服务</div>
+                        <div class="col-md-1">客户</div>
+                        <div class="col-md-1">联系</div>
+                        <div class="col-md-1">新闻</div>
+                    </div>
+            </div>
+
+            <!--横线-->
+            <div class="row-two row tabs-line">
+
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-1 active"></div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-1"></div>
+                    </div>
+
+            </div>
+        </div>
+    </header>
+    <div class="carousels">
+        <div class="carousel slide" data-ride="carousel" data-interval="2000">
+            <div class="carousel-inner">
+                <a class="item active" href="#"><img class="img-responsive" src="images/2_02.png" alt=""></a>
+                <a class="item" href="#"><img class="img-responsive" src="images/2_02.png" alt=""></a>
+                <a class="item" href="#"><img class="img-responsive" src="images/2_02.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="case center">
+        <p>case/案例</p>
+        <div class="labels pull-right">
+            <span class="label label-info">
+                <i class="glyphicon glyphicon-arrow-left"></i>
+                <i class="glyphicon glyphicon-arrow-right"></i>
+             </span>
+        </div>
+        <div class="picture">
+            <img src="images/3.jpg" alt="">
+            <img src="images/3.jpg" alt="">
+            <img src="images/3.jpg" alt="">
+            <img src="images/3.jpg" alt="">
+            <img src="images/3.jpg" alt="">
+            <img src="images/3.jpg" alt="">
+        </div>
+        <div class="words">
+            <span>致力于提升客户品牌形象、实现客户商业目标</span>
+            <p>Commitment to enhance customer brand image,customer business goals!</p>
+        </div>
+        <div class="thead">
+
+        </div>
+    </div>
+    <div class="case center">
+        <p>case/案例</p>
+        <div class="labels pull-right">
+            <span class="label label-info">
+                <i class="glyphicon glyphicon-arrow-left"></i>
+                <i class="glyphicon glyphicon-arrow-right"></i>
+             </span>
+        </div>
+        <div class="picture">
+            <img src="images/3.jpg" alt="">
+            <img src="images/3.jpg" alt="">
+            <img src="images/3.jpg" alt="">
+            <img src="images/3.jpg" alt="">
+            <img src="images/3.jpg" alt="">
+            <img src="images/3.jpg" alt="">
+        </div>
+        <div class="words">
+            <span>致力于提升客户品牌形象、实现客户商业目标</span>
+            <p>Commitment to enhance customer brand image,customer business goals!</p>
+        </div>
+        <div class="thead">
+
+        </div>
+    </div>
+</body>
+</html>
